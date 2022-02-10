@@ -1,6 +1,14 @@
 node_modules/**/*
 .expo/*
 npm-debug.*
+.pnp
+.pnp/*
+.pnp/*/*
+.yarn
+.yarnrc
+.yarn*
+.yarn/*
+
 
 *.jks
 *.p8
@@ -15,3 +23,5 @@ yarn.lock
 
 # macOS
 .DS_Store
+.pnp/unplugged/npm-core-js-2.6.12-d9333dfa7b065e347cc5682219d6f690859cc2ec-integrity/node_modules/core-js/fn/array/virtual/flatten.js
+*.log

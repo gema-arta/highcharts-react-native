@@ -31,7 +31,11 @@
   ],
   "homepage": "https://github.com/highcharts/highcharts-react-native#readme",
   "dependencies": {
+<<<<<<< Updated upstream
     "@expo/metro-config": "^0.1.16",
+=======
+    "@highcharts/highcharts-react-native": "./dist/",
+>>>>>>> Stashed changes
     "expo": "~38.0.8",
     "expo-asset": "~8.1.7",
     "expo-file-system": "~9.0.1",
@@ -46,11 +50,20 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
     "react-native-unimodules": "^0.10.1",
     "react-native-web": "~0.11.7",
+<<<<<<< Updated upstream
     "react-native-webview": "9.4.0"
+=======
+    "react-native-webview": "10.6.0",
+    "yarn": "^1.22.17"
+>>>>>>> Stashed changes
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
     "babel-preset-expo": "~8.1.0"
   },
-  "private": true
+  "private": true,
+  "installConfig": {
+    "pnp": true
+  },
+  "packageManager": "yarn@3.1.0"
 }
